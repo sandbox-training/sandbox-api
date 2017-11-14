@@ -1,0 +1,31 @@
+{
+  "name": "sandbox-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start:dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sandbox-training/sandbox-api.git"
+  },
+  "keywords": [],
+  "author": "Thomas Sloboda <thomas@sloboda.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sandbox-training/sandbox-api/issues"
+  },
+  "homepage": "https://gitlab.com/sandbox-training/sandbox-api#readme.md",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "glob": "^7.1.2",
+    "morgan": "^1.9.0",
+    "seneca": "^3.4.3"
+  }
+}
